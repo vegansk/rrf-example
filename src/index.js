@@ -1,4 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-console.log("Hello, world!");
+let root = document.getElementById('root');
+
+let App = () => {
+  <div>Hello, world!</div>;
+}
+
+ReactDOM.render(<App/>, root);
