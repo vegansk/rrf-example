@@ -4,7 +4,7 @@
   "description": "react-redux-form example",
   "scripts": {
     "build": "./node_modules/.bin/webpack --config config/webpack.config.js",
-    "start": "./node_modules/.bin/webpack-dev-server --config config/webpack.config.js"
+    "start": "./node_modules/.bin/webpack-dev-server --config config/webpack.config.js --inline"
   },
   "author": "Anatoly Galiulin <galiulin.anatoly@gmail.com>",
   "license": "MIT",
